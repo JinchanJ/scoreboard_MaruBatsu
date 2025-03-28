@@ -1,0 +1,99 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  opacity: 0;
+  overflow: hidden;
+  margin: 0;
+  width: 1920px;
+  height: 1080px;
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.12))
+    drop-shadow(0 3px 1px rgba(0, 0, 0, 0.14))
+    drop-shadow(0 1px 5px rgba(0, 0, 0, 0.12))
+    drop-shadow(0 -1px 2px rgba(0, 0, 0, 0.1));
+  letter-spacing: 1;
+}
+
+.main_container {
+  width: 1920px;
+  height: 124px;
+
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+
+.background_container {
+  display: flex;
+  flex-direction: row;
+  background: #01020199;
+}
+
+.leftmost_column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 20px;
+}
+
+.name_container {
+  height: 62px;
+}
+
+.name {
+  font-size: 35px;
+  color: white;
+}
+
+.game_column_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.game_column {
+  height: 124px;
+  width: 50px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.marubatsu_container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 62px;
+}
+
+.symbol {
+  height: 45px;
+  width: 45px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.maru {
+  background-image: url('./O.png');
+}
+
+.batsu {
+  background-image: url('./X.png');
+}
+
+.score_column {
+  height: 124px;
+  margin: 0 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.score_container {
+  height: 62px;
+}
+
+.score {
+  font-size: 40px;
+  color: white;
+}
